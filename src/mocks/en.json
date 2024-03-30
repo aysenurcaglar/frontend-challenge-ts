@@ -1,0 +1,135 @@
+{
+    "header": {
+        "darkMode": "DARK MODE",
+        "lightMode": "LIGHT MODE",
+        "skills": "Skills",
+        "projects": "Projects",
+        "language": "TÜRKÇE",
+        "hireMe": "Hire me"
+    },
+    "introduction": {
+        "name": "Ayse Nur",
+        "heading1": "Creative thinker",
+        "heading2": "Minimalism lover",
+        "description": "Hi, I’m Ayse. I’m a frontend developer. If you are looking for a developer to craft solid and scalable frontend products with great user experiences, let’s shake hands.",
+        "hireMe": "Hire me",
+        "github": "Github",
+        "linkedin": "LinkedIn",
+        "links": {
+            "github": "https://github.com/aysenurcaglar/",
+            "linkedin": "https://www.linkedin.com/in/ayse-nur-caglar/"
+        }
+    },
+    "skills": {
+        "title": "Skills",
+        "items": [
+            {
+                "name": "Javascript",
+                "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            },
+            {
+                "name": "React.Js",
+                "description": "Aliquam eleifend nibh vel tellus ullamcorper dignissim. Nam nec odio velit. Nulla quam quam, elementum ultrices."
+            },
+            {
+                "name": "Node.Js",
+                "description": "Sed laoreet mollis erat, efficitur iaculis nulla porttitor non. Curabitur eu sodales odio. Fusce facilisis metus."
+            }
+        ]
+    },
+    "profile": {
+        "title": "Profile",
+        "basicInformation": {
+            "title": "Basic Information",
+            "items": [
+                {
+                    "label": "Date of Birth",
+                    "value": "18.09.1997"
+                },
+                {
+                    "label": "City of Residence",
+                    "value": "Kocaeli"
+                },
+                {
+                    "label": "Educational Background",
+                    "value": "Bogazici Unv. Bachelor's degree in Translation and Interpreting Studies, 2022"
+                },
+                {
+                    "label": "Preferred Role",
+                    "value": "Frontend, UI"
+                }
+            ]
+        },
+        "aboutMe": {
+            "title": "About Me",
+            "paragraphs": [
+                "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia.",
+                "Mnima accusamus ratione soluta aperiam sit voluptate? Dicta quod deserunt quam temporibus cumque magnam!"
+            ]
+        }
+    },
+    "projects": {
+        "title": "Projects",
+        "items": [
+            {
+                "title": "Workintech",
+                "image": "Rectangle-41.jpg",
+                "description": "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes possible.",
+                "technologies": [
+                    "react",
+                    "redux",
+                    "axios"
+                ],
+                "github": "Github",
+                "githubLink": "https://github.com/aysenurcaglar/FSWeb-S9-Sprint-Challenge",
+                "viewSiteLabel": "View Site",
+                "viewSiteLink": "https://fs-web-s9-sprint-challenge-sooty.vercel.app/"
+            },
+            {
+                "title": "Random Jokes",
+                "image": "Rectangle-42.jpg",
+                "description": "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes possible.",
+                "technologies": [
+                    "react",
+                    "redux",
+                    "axios"
+                ],
+                "github": "Github",
+                "githubLink": "https://github.com/aysenurcaglar/fsweb-s7-challenge-pizza",
+                "viewSiteLabel": "View Site",
+                "viewSiteLink": "https://fsweb-s7-challenge-pizza-drab.vercel.app/"
+            },
+            {
+                "title": "Journey",
+                "image": "Rectangle-43.jpg",
+                "description": "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes possible.",
+                "technologies": [
+                    "react",
+                    "redux",
+                    "axios"
+                ],
+                "github": "Github",
+                "githubLink": "https://github.com/aysenurcaglar/s10d3t1",
+                "viewSiteLabel": "View Site",
+                "viewSiteLink": "https://s10d3t1.vercel.app/"
+            }
+        ]
+    },
+    "footer": {
+        "contactHeader": "Let’s work together on your next product.",
+        "contactEmail": "example@example.com",
+        "personalBlog": "Personal Blog",
+        "github": "Github",
+        "linkedin": "LinkedIn",
+        "links": {
+            "personalBlog": "#",
+            "github": "https://github.com/aysenurcaglar/",
+            "linkedin": "https://www.linkedin.com/in/ayse-nur-caglar/"
+        }
+    },
+    "notifications": {
+        "pending": "Lütfen bekleyin...",
+        "success": "🦄 Dil başarıyla değiştirildi!",
+        "error": "Bir sorun var :("
+    }
+}

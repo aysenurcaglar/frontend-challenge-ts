@@ -1,0 +1,137 @@
+{
+    "header": {
+        "darkMode": "GECE MODU",
+        "lightMode": "GÜNDÜZ MODU",
+        "language": "ENGLISH",
+        "skills": "Beceriler",
+        "projects": "Projeler",
+        "hireMe": "İletişim"
+
+    },
+    "introduction": {
+        "name": "Ayşe Nur",
+        "heading1": "Yaratıcı çözümler",
+        "heading2": "Minimalist tasarımlar",
+        "description": "Merhaba, ben Ayşe. Frontend yazılımcıyım. Harika kullanıcı deneyimleri ile sağlam ve ölçeklenebilir frontend ürünleri oluşturacak bir yazılımcı arıyorsanız gelin tanışalım.",
+        "hireMe": "İletişim",
+        "github": "Github",
+        "linkedin": "LinkedIn",
+        "links": {
+            "github": "https://github.com/aysenurcaglar/",
+            "linkedin": "https://www.linkedin.com/in/ayse-nur-caglar/"
+        }
+    },
+    "skills": {
+        "title": "Beceriler",
+        "items": [
+            {
+                "name": "Javascript",
+                "description": "Türemiş sıfat gördüm gazete değerli olduğu için adanaya telefonu lakin layıkıyla filmini mi masanın."
+            },
+            {
+                "name": "React.Js",
+                "description": "Çünkü bilgisayarı salladı hesap makinesi ve masaya doğru bahar mıknatıslı okuma sayfası beğendim."
+            },
+            {
+                "name": "Node.Js",
+                "description": "Masaya doğru ona doğru gördüm sıradanlıktan duyulmamış ona doğru telefonu dışarı çıktılar ama."
+            }
+        ]
+    },
+    "profile": {
+        "title": "Profil",
+        "basicInformation": {
+            "title": "Temel Bilgiler",
+            "items": [
+                {
+                    "label": "Doğum Tarihi",
+                    "value": "18.09.1997"
+                },
+                {
+                    "label": "İkamet Şehri",
+                    "value": "Kocaeli"
+                },
+                {
+                    "label": "Eğitim Durumu",
+                    "value": "Boğaziçi Ünv. Çeviribilim Lisans, 2022"
+                },
+                {
+                    "label": "Tercih Ettiği Rol",
+                    "value": "Frontend, UI"
+                }
+            ]
+        },
+        "aboutMe": {
+            "title": "Hakkımda",
+            "paragraphs": [
+                "Lambadaki gitti salladı masaya doğru de mutlu oldular dışarı çıktılar bilgisayarı sıla ama göze çarpan tv balıkhaneye.",
+                "Domates tv de dışarı çıktılar salladı masaya doğru düşünüyor masanın telefonu. Çakıl yazın mutlu oldular."
+            ]
+        }
+    },
+    "projects": {
+        "title": "Projeler",
+        "items": [
+            {
+                "title": "Workintech",
+                "image": "Rectangle-41.jpg",
+                "description": "Kullanıcılarınızın hangi çerezleri kabul edeceğini veya reddedeceğini seçmesine olanak tanıyan basit, özelleştirilebilir, minimal düzeyde kurulum gerektiren bir çerez eklentisi. Vanilla JS, SCSS ve Parcel Bundler ile oluşturulmuştur, NPM paketi olarak sunulmaktadır ve git deposu kod ve temalarda her türlü özelleştirmeyi mümkün kılmaktadır.",
+                "technologies": [
+                    "react",
+                    "redux",
+                    "axios"
+                ],
+                "github": "Github",
+                "githubLink": "https://github.com/aysenurcaglar/FSWeb-S9-Sprint-Challenge",
+                "viewSiteLabel": "Siteyi Görüntüleyin",
+                "viewSiteLink": "https://fs-web-s9-sprint-challenge-sooty.vercel.app/"
+                
+            },
+            {
+                "title": "Random Jokes",
+                "image": "Rectangle-42.jpg",
+                "description": "Kullanıcılarınızın hangi çerezleri kabul edeceğini veya reddedeceğini seçmesine olanak tanıyan basit, özelleştirilebilir, minimal düzeyde kurulum gerektiren bir çerez eklentisi. Vanilla JS, SCSS ve Parcel Bundler ile oluşturulmuştur, NPM paketi olarak sunulmaktadır ve git deposu kod ve temalarda her türlü özelleştirmeyi mümkün kılmaktadır.",
+                "technologies": [
+                    "react",
+                    "redux",
+                    "axios"
+                ],
+                "github": "Github",
+                "githubLink": "https://github.com/aysenurcaglar/fsweb-s7-challenge-pizza",
+                "viewSiteLabel": "Siteyi Görüntüleyin",
+                "viewSiteLink": "https://fsweb-s7-challenge-pizza-drab.vercel.app/"
+            },
+            {
+                "title": "Journey",
+                "image": "Rectangle-43.jpg",
+                "description": "Kullanıcılarınızın hangi çerezleri kabul edeceğini veya reddedeceğini seçmesine olanak tanıyan basit, özelleştirilebilir, minimal düzeyde kurulum gerektiren bir çerez eklentisi. Vanilla JS, SCSS ve Parcel Bundler ile oluşturulmuştur, NPM paketi olarak sunulmaktadır ve git deposu kod ve temalarda her türlü özelleştirmeyi mümkün kılmaktadır.",
+                "technologies": [
+                    "react",
+                    "redux",
+                    "axios"
+                ],
+                "github": "Github",
+                "githubLink": "https://github.com/aysenurcaglar/s10d3t1",
+                "viewSiteLabel": "Siteyi Görüntüleyin",
+                "viewSiteLink": "https://s10d3t1.vercel.app/"
+            }
+        ]
+    },
+    "footer": {
+        "contactHeader": "Bir sonraki ürününüz üzerinde birlikte çalışalım.",
+        "contactEmail": "example@example.com",
+        "personalBlog": "Kişisel Blog",
+        "github": "Github",
+        "linkedin": "LinkedIn",
+        "links": {
+            "personalBlog": "#",
+            "github": "https://github.com/aysenurcaglar/",
+            "linkedin": "https://www.linkedin.com/in/ayse-nur-caglar/"
+        }
+    },
+    "notifications": {
+        "pending": "Please wait...",
+        "success": "🦄 Language switch successful!",
+        "error": "We encountered an issue :("
+    }
+}
