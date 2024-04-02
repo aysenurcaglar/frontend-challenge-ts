@@ -2,6 +2,8 @@ import React from "react";
 import { useDarkMode } from "../contexts/DarkModeContext";
 import { useLanguage } from "../contexts/LanguageContext";
 import { toast } from "react-toastify";
+import moon from '../assets/moon.svg';
+import sun from '../assets/sun.svg';
 
 interface ApiResponse {
   header: {
@@ -66,12 +68,11 @@ export const Header: React.FC = () => {
           onClick={toggleDarkMode}
         >
           <div
-            className='absolute w-3 h-3 rounded-full transition-transform duration-300 bg-yellow'
-            style={{ transform: darkMode ? 'translateX(30%)' : 'translateX(200%)' }}
-          />
-          {darkMode && (
-            <div className="absolute w-2.5 h-2.5 rounded-full bg-toggle-gray left-2" />
-          )}
+            className='w-4 h-4 cursor-pointer transition-transform duration-300 transform'
+            style={{ transform: darkMode ? 'translateX(30%)' : 'translateX(125%)' }}
+          >
+            {darkMode ? <img src={moon} /> : <img src={sun} />}
+          </div>
         </div>
 
         <span className='dark:text-light-mode text-gray-dark font-medium tracking-wider'>
