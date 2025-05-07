@@ -16,6 +16,8 @@ interface LanguageContextType {
 
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
 
+const API_KEY = import.meta.env.VITE_API_KEY;
+
 export const useLanguage = (): LanguageContextType => {
   const context = useContext(LanguageContext);
   if (!context) {
@@ -39,7 +41,7 @@ export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ chil
       const response = await axios.post('https://reqres.in/api/workintech', languageFile,
       {
         headers: {
-          'x-api-key': 'myapikey',
+          'x-api-key': API_KEY,
           'Content-Type': 'application/json',
         },
       });
