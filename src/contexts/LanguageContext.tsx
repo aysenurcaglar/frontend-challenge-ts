@@ -36,7 +36,13 @@ export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ chil
   const fetchData = async () => {
     try {
       const languageFile = await import(`../mocks/${language}.json`);
-      const response = await axios.post('https://reqres.in/api/workintech', languageFile);
+      const response = await axios.post('https://reqres.in/api/workintech', languageFile,
+      {
+        headers: {
+          'x-api-key': 'myapikey',
+          'Content-Type': 'application/json',
+        },
+      });
 
       console.log('API Response:', response.data);
       updateApiResponse(response.data);
